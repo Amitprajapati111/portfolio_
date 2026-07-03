@@ -92,7 +92,8 @@ const projectsData = [
     description: 'A platform integrating Google Maps API and JWT authentication for community issue tracking.',
     tags: ['Fullstack', 'MERN', 'Backend'],
     docLink: 'https://github.com/Amitprajapati111/https---github.com-springboardmentor211-CleanStreet_Group3',
-    liveLink: '#',
+    liveLink: 'https://www.linkedin.com/posts/amitprajapati111_infosysspringboard-internship-virtualinternship-ugcPost-7435545771502026752-tSKy/',
+    //liveLink: 'https://www.linkedin.com/posts/amitprajapati111_infosysspringboard-internship-virtualinternship-ugcPost-7435545771502026752-tSKy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEklV-4BsjCMmH_5DiuuIHO_Wt5GU4J7MXI',
     featured: true,
     details: [
       'Developed RESTful APIs using Node.js and Express.js for a MERN-based civic issue reporting platform, supporting efficient issue submission and tracking.',
