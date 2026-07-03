@@ -15,14 +15,22 @@ const Message = require('./models/Message');
 // Load environment variables
 dotenv.config();
 
-// Connect to database
-connectDB();
-
 const app = express();
 
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Connect to database on request
+app.use(async (req, res, next) => {
+  try {
+    await connectDB();
+    next();
+  } catch (err) {
+    console.error('Database connection error:', err.message);
+    res.status(500).json({ error: 'Database connection error', details: err.message });
+  }
+});
 
 // API Routes
 
