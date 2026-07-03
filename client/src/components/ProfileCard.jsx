@@ -37,7 +37,7 @@ const ProfileCard = () => {
       <div className="profile-header-card">
         {/* Avatar Container */}
         <div className="avatar-wrapper">
-          <img src="/avatar.png" alt="Amit prajapati Avatar" className="profile-avatar" onError={(e) => {
+          <img src="/pic.jpeg" alt="Amit prajapati Avatar" className="profile-avatar" onError={(e) => {
             // fallback if avatar doesn't exist yet
             e.target.src = 'https://api.dicebear.com/7.x/pixel-art/svg?seed=Rajat';
           }} />
