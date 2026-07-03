@@ -52,22 +52,22 @@ const certificatesData = [
   {
     title: 'AWS Academy Cloud Foundations',
     issuer: 'AWS Academy',
-    credentialUrl: 'https://aws.amazon.com/training/'
+    credentialUrl: 'https://1drv.ms/f/c/8d4591133fd378c1/IgBaMCMV-F1bRpKvTXrHsVNtAeT6-B2LjjLXAz5uz8ZxhsM'
   },
   {
     title: 'AWS Academy Cloud Architecture',
     issuer: 'AWS Academy',
-    credentialUrl: 'https://aws.amazon.com/training/'
+    credentialUrl: 'https://1drv.ms/f/c/8d4591133fd378c1/IgBoq5MADJkLTYxuqrC4o9SgAdsv4OINz5BF4mHwcy8jIH0'
   },
   {
     title: 'GFG Hackfest Delhi NCR',
     issuer: 'GeeksforGeeks',
-    credentialUrl: 'https://www.geeksforgeeks.org/'
+    credentialUrl: 'https://1drv.ms/f/c/8d4591133fd378c1/IgBFA56ujzDQRKijA1b3GidmAa3j7T1voCg5sK47jVGQMLI'
   },
   {
     title: 'Code-A-Thone 2.0 Winner',
     issuer: 'NIET Hackathon Cell',
-    credentialUrl: '#'
+    credentialUrl: 'https://1drv.ms/f/c/8d4591133fd378c1/IgBRBthVMWrSTpElXW0amaGBAX6myJFcfoamoxJRdSe8D4M'
   }
 ];
 
